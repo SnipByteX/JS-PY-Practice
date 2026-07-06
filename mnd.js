@@ -25,3 +25,15 @@
 //   return n * n;
 // }
 
+
+// Print Hello Without using any loop.
+function printHello(n) {
+  if (n === 0) return;
+  console.log("Hello");
+  printHello(n - 1);
+}
+printHello(10);
+
+Array(10).fill().forEach(() => console.log("Hello"));
+
+console.log("Hello\n".repeat(10));
