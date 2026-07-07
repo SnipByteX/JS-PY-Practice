@@ -39,10 +39,17 @@
 // let arr = [1, [2,3], [4,5]];
 // console.log(arr.flat());
 
+
 // let arr = [1, 2, 3, 4, 5];
-// console.log(arr.flatMap(x => [x * 2]));
+// console.log(arr.flatMap(x => [x, x * 2]));
+
+// console.log(arr.map(x => [x, x * 2]))
 // console.log(Array.isArray(arr));
 // console.log(arr.copyWithin(0, 2));
+
+// const arr = [1, 2, 3];
+// const result = arr.map(x => [x, x * 2]);
+// console.log(result);
 
 // let arr = ["a", "b", "c"];
 // let iterator = arr.values();
@@ -72,6 +79,6 @@
 // console.log(arr);
 
 
-let a = ["a","b","c"];
-console.log(a.splice(1,1,"Baccha"))
-console.log(a);
+// let a = ["a","b","c"];
+// console.log(a.splice(1,1,"Baccha"))
+// console.log(a);

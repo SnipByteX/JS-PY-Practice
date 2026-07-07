@@ -1,16 +1,21 @@
 // let person = {
-//   name: "John",
-//   age: 30,
-//   city: "New York",
+//     name: "John",
+//     age: 30,
+//     city: "New York",
 // };
 // console.log(Object.keys(person));
 // console.log(Object.values(person))
 // console.log(Object.entries(person))
 
+// for (
+//     let key of Object.values(person)
+// ) {
+//     console.log(key);
+// }
+
 // let addInfo = { city: 'New', country: 'ind' }
 // let merge = Object.assign({}, person, addInfo)
 // console.log(merge)
-
 // Object.freeze(person)
 // person.age = 35;
 // console.log(person.age)
@@ -29,12 +34,12 @@
 // console.log(str)
 
 // let arr = [1, 2, 3, 4, 5]
-// let slicedArr = arr.slice(1, 4)
+// let slicedArr = arr.slice(2, 4)
 // console.log(slicedArr)
 
-let arr = [1, 2, 3, 4]
-arr.reverse()
-console.log(arr)
+// let arr = [1, 2, 3, 4]
+// arr.reverse()
+// console.log(arr)
 
 // let str = "apple,banana,cherry";
 // let arr = str.split(",");
@@ -317,6 +322,7 @@ console.log(arr)
 // const p2 = new Promise(res => setTimeout(() => res("two"), 100));
 // Promise.race([p1, p2]).then(console.log); // ?
 // Promise.all([p1, p2]).then(console.log);  // ?
+
 
 // function delay(ms) {
 //   return new Promise((resolve) => setTimeout(resolve, ms));

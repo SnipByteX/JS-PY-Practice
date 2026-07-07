@@ -5,6 +5,7 @@
     },
     "javascript.preferences.organizeImports": {
 
-    }
+    },
+    "liveServer.settings.port": 5501
 }
 

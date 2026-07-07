@@ -62,8 +62,16 @@
 // function flattenArrayModern(arr) {
 //   return arr.flat(Infinity);
 // }
-// const nestedArr = [1, [2, [3, 4]], 5, [6, 7]];
+// const nestedArr = [1, [2, [3, 4]], 5, [6,[4], 7]];
 // console.log(flattenArrayModern(nestedArr)); // Output: [1, 2, 3, 4, 5, 6, 7]
+
+
+
+
+// const nestedArr = [1, [2, [3, 4]], 5, [6,[4], 7]];
+// console.log(nestedArr.flat()); // Output: [1, 2, 3, 4, 5, 6, 7]
+// console.log(nestedArr.flat(2)); // Output: [1, 2, 3, 4, 5, 6, 7]
+// console.log(nestedArr.flat(Infinity)); // Output: [1, 2, 3, 4, 5, 6, 7]
 
 
 // function flattenArrayRecursive(arr) {
@@ -138,8 +146,8 @@ const Persons = {
 // console.log(result2);
 
 
-const result2 = Object.keys(Persons)
-  .filter(name => Persons[name] >= 18)
-  .sort((a, b) => a.slice(-1).localeCompare(b.slice(-1)));
+// const result2 = Object.keys(Persons)
+//   .filter(name => Persons[name] >= 18)
+//   .sort((a, b) => a.slice(-1).localeCompare(b.slice(-1)));
 
-console.log(result2);
+// console.log(result2);
