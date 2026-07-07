@@ -37,3 +37,13 @@ printHello(10);
 Array(10).fill().forEach(() => console.log("Hello"));
 
 console.log("Hello\n".repeat(10));
+
+
+
+
+
+function printHello(n, current = 1) {
+  if (current >= n) return;
+  console.log(`Hello ${current}`); printHello(n, current + 1);
+}
+printHello(10);
