@@ -151,3 +151,26 @@ const Persons = {
 //   .sort((a, b) => a.slice(-1).localeCompare(b.slice(-1)));
 
 // console.log(result2);
+
+
+
+// // Find the largest number.
+// const findLargestNumbers = (numbers) => {
+//   let largestNumber = numbers[0];
+//   for(const larg of numbers){
+//     if(larg > largestNumber){
+//       largestNumber = larg;
+//     }
+//   }
+//   return largestNumber;
+// }
+// console.log(findLargestNumbers([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+
+
+const largestNumber = (numbers) => numbers.reduce((largestNumber, currentNumber) => currentNumber > largestNumber ? currentNumber : largestNumber);
+console.log(largestNumber([1, 2, 3, 4, 5, 6, 7, 8, 9]));
+
+// const findLargestNumbers = (numbers) => {
+//   return Math.max(...numbers);
+// }
+// console.log(findLargestNumbers(1,2,3,4,5,6,7,8,9));

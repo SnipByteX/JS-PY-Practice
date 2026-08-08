@@ -30,9 +30,7 @@
 
 class UserValidator {
     validate(userData: any) {
-        if (!userData.email) {
-            throw new Error("Email required");
-        }
+        if (!userData.email)  throw new Error("Email required");
     }
 }
 class UserRepository {

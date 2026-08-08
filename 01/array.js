@@ -75,15 +75,16 @@
 // }
 // test();
 
-// function demo() {
-//   let a = 10;
-//   if (a > 5) {
-//     let a = 20;
-//     console.log(a); //20
-//   }
-//   console.log(a); // 10
-// }
-// demo();
+function demo() {
+  let a = 10;
+  if (a > 5) {
+    debugger;
+    let a = 20;
+    console.log(a); //20
+  }
+  console.log(a); // 10
+}
+demo();
 
 // const a = 10;
 // a = 20;
